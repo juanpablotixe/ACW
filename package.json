@@ -1,0 +1,29 @@
+{
+  "name": "acwproject",
+  "version": "1.0.0",
+  "description": "A package.json for acwproject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanpablotixe/ACW.git"
+  },
+  "author": "juanpablotixe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanpablotixe/ACW/issues"
+  },
+  "homepage": "https://github.com/juanpablotixe/ACW#readme",
+  "prettier": {
+    "tabWidth": 4,
+    "printWidth": 75
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
