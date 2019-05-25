@@ -17,7 +17,6 @@ module.exports = {
         ecmaVersion: 2017,
         sourceType: "module"
     },
-    eslintIgnore: [],
     plugins: ["react", "flowtype"],
     rules: {}
 };
