@@ -5,6 +5,7 @@
     "main": "index.js",
     "scripts": {
         "build": "babel src -d out",
+        "flow": "flow",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -25,8 +26,11 @@
         "lodash": "^4.17.11"
     },
     "devDependencies": {
+        "babel-preset-flow": "^6.23.0",
         "eslint": "^5.16.0",
         "eslint-config-recommended": "^4.0.0",
-        "eslint-plugin-react": "^7.13.0"
+        "eslint-plugin-flowtype": "^3.9.1",
+        "eslint-plugin-react": "^7.13.0",
+        "flow-bin": "^0.98.1"
     }
 }
