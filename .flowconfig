@@ -9,6 +9,6 @@ all=warn
 unsafe-getters-setters=off
 
 [options]
-include_warning=true
+include_warnings=true
 
 [strict]
